@@ -1,0 +1,35 @@
+body{
+    height: auto;
+    width: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin:auto;
+    height: 95px;
+    width: 1020px;
+    background-color: #2d303a;
+}
+.logo :first-child{
+    color: white;
+}
+.logo :last-child{
+    color: red;
+}
+
+main{
+    margin:auto;
+    height: 600px;
+    width: 1020px;
+    background-color: #f06c64;
+}
+footer{
+    margin:auto;
+    height: 500px;
+    width: 1020px;
+    background-color: #f2f2f2;
+}
+
+

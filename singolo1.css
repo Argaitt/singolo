@@ -77,6 +77,10 @@ nav a:hover{
 .iphone-vertical{
     margin-right: 73px;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+}
 
 
 

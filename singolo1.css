@@ -35,19 +35,24 @@ footer{
     background-color: #f2f2f2;
 }
 .logo{
+    position: relative;
+    top: -5px;
     font-family: "Lato";
     font-weight: bold;
     font-size: 25px;
 }
 nav{
+    position: relative;
+    top: 1px;
+    right: -15px;
     font-family: "Lato";
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
 }
 nav a{
     text-decoration: none;
     color: white;
-    margin: 11px;
+    margin: 15px;
 }
 nav a:hover{
     color: #f06c64;
@@ -63,6 +68,8 @@ nav a:hover{
 .arrow-left{
     margin-left: 42px;
     margin-right: 54px;
+    position: relative;
+    top: -5px;
 }
 .arrow-left:active{
     background-color: white;
@@ -70,12 +77,20 @@ nav a:hover{
 .arrow-right{
     margin-right: 20px;
     margin-left: 55px;
+    position: relative;
+    top: -5px;
 }
 .arrow-right:active{
     background-color: white;
 }
 .iphone-vertical{
     margin-right: 73px;
+    position: relative;
+    top: -5px;
+}
+.iphone-horizontal{
+    position: relative;
+    top: -5px;
 }
 footer{
     display: flex;
@@ -84,7 +99,7 @@ footer{
 .grid-container{
     display: grid;
     box-sizing: border-box;
-    margin-top: 40px;
+    margin-top: 28px;
     margin-left: 40px;
     margin-right: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -115,10 +130,11 @@ h1{
     line-height: 20px;
 }
 .main-text-our-services{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 42px;
+    margin-right: 20px;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
     padding-right: 20px;
 }
 .grid-container div{

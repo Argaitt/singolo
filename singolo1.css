@@ -108,9 +108,10 @@ footer{
 h1{
     margin-left: 40px;
     margin-top: 59px;
-    font-family: "Lato";
-    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 30px;
+    color: #666d89;
 }
 .grid-container h2{
     position: relative;
@@ -119,6 +120,7 @@ h1{
     font-family: "Lato";
     font-weight: 800;
     font-size: 18px;
+    color: #666d89;
 }
 .grid-container p{
     font-family: "lato";
@@ -128,6 +130,7 @@ h1{
     position: relative;
     top: -25px;
     line-height: 20px;
+    color: #8a91ab;
 }
 .main-text-our-services{
     margin-top: 0px;
@@ -136,6 +139,7 @@ h1{
     font-size: 18px;
     line-height: 30px;
     padding-right: 20px;
+    color: #767e9e;
 }
 .grid-container div{
     display: flex;

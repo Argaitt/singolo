@@ -81,6 +81,52 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.grid-container{
+    display: grid;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+h1{
+    margin-left: 40px;
+    margin-top: 59px;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 30px;
+}
+.grid-container h2{
+    position: relative;
+    top: -20px;
+    right: -22px;
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 18px;
+}
+.grid-container p{
+    font-family: "lato";
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 20px;
+    position: relative;
+    top: -25px;
+    line-height: 20px;
+}
+.main-text-our-services{
+    margin-top: 5px;
+    margin-left: 42px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+.grid-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+}
 
 
 

@@ -64,6 +64,10 @@ main a{
     border: 1px solid #767e9e;
     border-radius: 5px;
 }
+main a:hover{
+    color: white;
+    border-color: white;
+}
 .portfolio{
     box-sizing: border-box;
     margin-top: 22px;
@@ -110,6 +114,9 @@ main a{
 .adam div a{
  margin-right: 4px;
 }
+.adam div a img:hover{
+    background-color: red;
+}
 .desmond{
     
     height: 100px;
@@ -139,6 +146,9 @@ main a{
 .desmond div a{
  margin-right: 4px;
 }
+.desmond div a img:hover{
+    background-color: red;
+}
 .scolara{
     height: 100px;
     display: grid;
@@ -165,5 +175,8 @@ main a{
 }
 .scolara div a{
  margin-right: 4px;
+}
+.scolara div a img:hover{
+    background-color: red;
 }
 

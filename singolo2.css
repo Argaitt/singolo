@@ -124,6 +124,7 @@ main a{
     padding-top: 1px;
 }
 .desmond p{
+    width: auto;
     font-family: "Lato";
     font-weight: 400;
     font-size: 12px;

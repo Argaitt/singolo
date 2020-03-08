@@ -78,6 +78,11 @@ form textarea::placeholder{
     color: #f0d8d9;
 }
 footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
     height: 76px;
     width: 1024px;
     margin: auto;
@@ -98,4 +103,17 @@ footer{
 }
 .contact-information p{
     margin: 0px;
+}
+footer p{
+    color:#5e657e;
+    margin: 0px;
+    padding-left: 40px;
+    font-size: 12px;
+}
+.social{
+    padding-top: 5px;
+    padding-right: 39px;
+}
+.social img{
+    margin-right: 5px;
 }

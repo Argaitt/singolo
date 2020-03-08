@@ -1,8 +1,81 @@
+body{
+    font-family: "Lato";
+}
 main{
     height: 654px;
     width: 1024px;
     margin: auto;
     background-color: #f06c64;
+}
+.title{
+    padding-top: 60px;
+    padding-left: 40px;
+    letter-spacing: -0.2px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #f0d8d9;
+}
+.description{
+    position: relative;
+    top: -1px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+    padding-left: 40px;
+    color: #f0d8d9;
+}
+form{
+    width: 700px;
+    padding-top: 25px;
+    padding-left: 38px;
+}
+form input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    color: #e87675;;
+}
+form input{
+    box-sizing: border-box;
+    padding-left: 14px;
+    margin-bottom: 16px;
+    height: 38px;
+    width: 620px; 
+    border-radius: 6px;
+    background-color: #d6564f;
+    border: 0;
+}
+form textarea{
+    border: 0;
+    height: 200px;
+    width: 618px;
+    border-radius: 6px;
+    background-color: #d6564f;
+}
+form textarea::placeholder{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: "Lato";
+    color: #e87675;
+    font-size: 12px;
+    font-weight: 400;
+}
+.information{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.information h2{
+    color: #f0d8d9;
+    font-size: 18px;
+}
+.information p{
+    position: relative;
+    top: -6px;
+    font-size: 12px;
+    line-height: 21.3px;
+    padding-right: 30px;
+    color: #f0d8d9;
 }
 footer{
     height: 76px;
@@ -15,5 +88,14 @@ footer{
     flex-direction: row;
 }
 .contact-information{
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-left: 2px;
     display: grid;
+    font-size: 12px;
+    grid-template-columns: 20px 200px;
+    grid-template-rows: 20px 26px 20px;
+}
+.contact-information p{
+    margin: 0px;
 }

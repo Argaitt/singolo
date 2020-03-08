@@ -1,0 +1,19 @@
+main{
+    height: 654px;
+    width: 1024px;
+    margin: auto;
+    background-color: #f06c64;
+}
+footer{
+    height: 76px;
+    width: 1024px;
+    margin: auto;
+    background-color: #2d303a;
+}
+.input-area{
+    display: flex;
+    flex-direction: row;
+}
+.contact-information{
+    display: grid;
+}
